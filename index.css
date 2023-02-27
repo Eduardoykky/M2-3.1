@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+.container{
+    margin-top: 10vh;
+    text-align: center;
+    width: 70vw;
+    height: 80vh;
+    background-color: rgb(97, 0, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(49, 0, 0);
+}
+.title{
+    padding: 10px;
+    text-align: center;
+}
+.register{
+    margin-top: 1vh;
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(203, 145, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="tudo">
+        <div class="container">
+            <section class="title">
+                <h2>Cadastro De Lojas</h2>
+            </section>
+            <div class="divForm">
+                <form class="form" id="allInputs">
+                    <div class="divName register">
+                        <label class="nameLabel" for="registerName">Nome:</label>
+                        <input type="text" class="nameClass" id="registerName" name="name" placeholder="Ex: Americanas" />
+                    </div>
+
+                    <div class="divAddress register">
+                        <label class="addressLabel" for="registerAddress">Endereço:</label>
+                        <input type="text" class="addressClass" id="registerAddress" name="endereco" placeholder="Ex: Rua 1" />
+                    </div>
+
+                    <div class="divOpening register">
+                        <label class="labelTime1" for="openingTime">Horário de Abertura:</label>
+                        <input class="time" type="time" id="openingTime" value="horarioAbertura">
+                    </div>
+
+                    <div class="divEnding register">
+                        <label class="labelTime2" for="closingTime">Horário de Fechamento:</label>
+                        <input class="time" type="time" id="closingTime" value="horarioFechamento">
+                    </div>
+                    <div class="titleRegister2" class="space">
+                        <span>Dias de Funcionamento</span>
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox1">Domingo</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox1" name="Domingo">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox2">Segunda</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox2" name="Segunda">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox3">Terça</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox3" name="Terça">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox4">Quarta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox4" name="Quarta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox5">Quinta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox5" name="Quinta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox6">Sexta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox6" name="Sexta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox7">Sábado</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox7" name="Sábado">
+                    </div>
+
+                    <section class="separar"></section>
+
+                    <section class="botões">
+                        <div class="botao">
+                            <button class="button1" type="button" id="bottom" name="botaofinal">Sentido Vertical</button>
+                        </div>
+
+                        <div class="botao">
+                            <button class="button2" type="button" id="bottom" name="botaofinal">Display Grid</button>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
